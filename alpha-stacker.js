@@ -7,8 +7,9 @@ function stackLetters (alph) {
 			if (i % 3 === 0) {
 				stack += " " + alph[i];
 		}	else {
-		stack += alph[i];	
+		// debugger
 		console.log(stack);
+		stack += alph[i];	
 		}
 	}
 }
